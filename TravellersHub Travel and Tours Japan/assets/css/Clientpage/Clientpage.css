@@ -1,0 +1,870 @@
+/*NAVBAR SECTION */
+/* Navbar Hover */ 
+#Home a:hover,
+#Japan a:hover,
+#About-us-Link:hover,
+#Help-Support-Link:hover {
+color: #0299c4;
+
+}
+
+.navbar-nav .nav-link {
+color: white !important; /* Sets link text color to white */
+}
+
+.navbar-nav .nav-link:hover {
+color: #0299c4 !important; /* Changes link text color on hover */
+}
+
+.dropdown-menu .dropdown-item:hover {
+background-color: #d1e7dd; /* Change to your preferred hover color */
+color: #0299c4; /* Change text color on hover if needed */
+}
+/* Remove dropdown arrow */
+.navbar-nav .dropdown-toggle::after {
+display: none;
+}
+/* CLICKABLE COVER */
+.animated-image {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.animated-image:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    cursor: pointer; /* Change cursor to indicate clickability */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-animate {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Optional: Animate the modal's close action (if you want it to fade out) */
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out;
+}
+
+.modal.fade.show .modal-dialog {
+    transform: scale(1);
+}
+/* CALENDAR SECTION */
+#calendar-container {
+    height: 50rem;
+    max-width: 100%;
+    background-color: #f8f9fa;
+  }
+
+  #calendar {
+    height: 400px;
+  }
+
+  /* Resize the buttons */
+  .fc-button {
+    font-size: 10px;  /* Adjust font size */
+    padding: 5px;  /* Adjust padding for button resizing */
+  }
+
+  .fc-button-prev, .fc-button-next, .fc-button-today {
+    font-size: 10px;  /* Resize "Previous", "Next", "Today" buttons */
+    padding: 4px;  /* Smaller padding for better fit */
+  }
+  /* Change the color of the day numbers */
+  .fc-daygrid-day-number {
+    color: black !important;
+  }
+  
+  /* Change the color of the day headers (e.g., Sun, Mon, Tue) */
+  .fc-col-header-cell {
+    color: black !important;
+  }
+/* ACCOUNT SETTINGS SECTION */
+.account-settings {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.account-settings h3 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+.form-control[readonly] {
+    background-color: #e9ecef;
+}
+.btn-edit, .btn-save {
+    color: #fff;
+    background-color: #0299c4;
+    border: none;
+}
+.password-section {
+    display: none; /* Initially hidden */
+}
+
+/*IMAGE SLIDER SECTION */
+/* Animation of Image Slider */
+.carousel-item img {
+animation: zoomInOut 8s ease-in-out infinite;
+}
+
+/* Keyframes for the zoom effect */
+@keyframes zoomInOut {
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.1);
+}
+100% {
+    transform: scale(1);
+}
+}
+
+/* TESTIMONY SECTION */
+*{
+/* Variables for storing colors */
+--card-clr: #ffffff;
+--body-clr: #ffffff;
+--primary-clr: #0299c4;
+--heading-clr: #000000;
+--text-clr: #000000a1;
+}
+
+.testimonials-section {
+width: 100%;
+padding: 0px;
+}
+.testimonials-section .section-header{
+max-width: 700px;
+text-align: center;
+margin: 30px auto 40px;
+}
+.section-header h1 {
+font-size: 36px;
+font-weight: 700;
+color: var(--primary-clr);
+}
+.testimonials-container{
+position: relative;
+}
+.testimonials-container .testimonial-card {
+background-color: #ffffff;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+padding: 20px;
+border-radius: 10px;
+}
+.testimonial-card .test-card-body{
+background-color: var(--card-clr);
+padding: 20px;
+}
+
+/* Styling for Testimonial Cards */
+.test-card-body {
+border-radius: 10px; /* Set border radius */
+padding: 20px;
+}
+
+.test-card-body .quote{
+display: flex;
+align-items: center;
+}
+.test-card-body .quote i{
+font-size: 45px;
+color: var(--heading-clr);
+margin-right: 20px;
+}
+.test-card-body .quote h2{
+color: var(--heading-clr);
+}
+.test-card-body p{
+margin: 10px 0px 15px;
+font-size: 14px;
+line-height: 1.5;
+color: var(--text-clr);
+}
+.test-card-body .ratings{
+margin-top: 20px;
+}
+.test-card-body .quote i {
+font-size: 30px;
+color: var(--primary-clr);
+margin-right: 10px;
+}
+.testimonial-text {
+color: var(--text-clr);
+line-height: 1.6;
+}
+.ratings i {
+font-size: 18px;
+color: #28a745;
+
+}
+.profile span {
+display: block;
+color: var(--primary-clr);
+}
+.testimonial-card .profile{
+display: flex;
+align-items: center;
+margin-top: 25px;
+}
+
+.profile .profile-desc{
+display: flex;
+flex-direction: column;
+}
+.profile-desc span:nth-child(1){
+font-size: 24px;
+font-weight: bold;
+color: var(--primary-clr);
+}
+.profile-desc span:nth-child(2){
+font-size: 15px;
+color: var(--text-clr);
+}
+.owl-nav{
+position: absolute;
+right: 20px;
+bottom: -10px;
+}
+.owl-nav button{
+border-radius: 50% !important;
+}
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i{
+padding: 10px !important;
+border-radius: 50%;
+font-size: 18px !important;
+background-color: var(--card-clr) !important;
+color: var(--primary-clr);
+cursor: pointer;
+transition: 0.4s;
+}
+.owl-nav .owl-prev i:hover,
+.owl-nav .owl-next i:hover{
+background-color: var(--primary-clr) !important;
+color: #e9e9e9;
+}
+.owl-dots{
+margin-top: 15px;
+}
+.owl-dots .owl-dot span{
+background-color: #434753 !important;
+padding: 6px !important;
+}
+.owl-dot.active span{
+background-color: var(--primary-clr) !important;
+}
+
+/* Base Button Styling - applies to both buttons */
+.btn {
+background-color: #0299c4; /* Button color */
+color: white; /* Text color */
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+background-color: #4CAF50; /* Hover button color */
+}
+
+/* Styling for the 'See More' button */
+.btn-outline {
+background-color: #0299c4;
+color: #ffffff;
+}
+
+.btn-outline:hover {
+background-color: #4CAF50;
+color: #000000;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the 'Submit Testimony' button */
+.btn-primary {
+background-color: #0299c4;
+color: #ffffff;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #4CAF50;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+/* Style for the Submit Testimony form */
+.submit-testimony-form {
+display: none;
+background-color: #ffffff;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 10px;
+}
+
+.submit-testimony-form h2 {
+color: var(--primary-clr);
+}
+
+.submit-testimony-form input,
+.submit-testimony-form textarea {
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.submit-testimony-form button {
+background-color: var(--primary-clr);
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+.submit-testimony-form button:hover {
+background-color: #007bb5;
+}
+
+/*PROFILE SECTION 
+/* Remove dropdown arrow for Profile-Link 
+#Profile-Link::after {
+display: none;
+}
+
+.nav-item {
+list-style-type: none; /* Removes bullets from list items 
+}
+
+.ui-w-80 {
+width : 80px !important;
+height: auto;
+}
+
+.btn-default {
+border-color: rgba(24, 28, 33, 0.1);
+background  : rgba(0, 0, 0, 0);
+color       : #4E5155;
+}
+
+label.btn {
+margin-bottom: 0;
+}
+
+.btn-outline-primary {
+border-color: #26B4FF;
+background  : transparent;
+color       : #26B4FF;
+}
+
+.btn {
+cursor: pointer;
+}
+
+.text-light {
+color: #babbbc !important;
+}
+
+.btn-facebook {
+border-color: rgba(0, 0, 0, 0);
+background  : #3B5998;
+color       : #fff;
+}
+
+.btn-instagram {
+border-color: rgba(0, 0, 0, 0);
+background  : #000;
+color       : #fff;
+}
+
+.card {
+background-clip: padding-box;
+box-shadow     : 0 1px 4px rgba(24, 28, 33, 0.012);
+}
+
+.row-bordered {
+overflow: hidden;
+}
+
+.account-settings-fileinput {
+position  : absolute;
+visibility: hidden;
+width     : 1px;
+height    : 1px;
+opacity   : 0;
+}
+
+.account-settings-links .list-group-item.active {
+font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+background: transparent !important;
+}
+
+.account-settings-multiselect~.select2-container {
+width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+padding     : 0.85rem 1.5rem;
+border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+color: #4e5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+padding     : 0.85rem 1.5rem;
+border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+color: #4e5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+padding     : 0.85rem 1.5rem;
+border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+color: #fff !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+padding     : 0.85rem 1.5rem;
+border-color: rgba(24, 28, 33, 0.03) !important;
+} */
+
+/* TOUR VISA DOWNLOAD BUTTON */
+/* Container styling to use Flexbox */
+.requirements-container {
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 20px;
+}
+
+/* Button styles */
+.requirements-button {
+padding: 10px 20px;
+font-size: 18px;
+color: white;
+background-color: #4CAF50;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.requirements-button:hover {
+background-color: #45a049;
+}
+
+/* TOUR PACKAGE LIST DESCRIPTION TOUR HIGHLIGHTS */
+/* Container Styles */
+#tour-detail-container {
+display: flex;
+gap: 20px;
+padding: 0px;
+}
+
+/* Left Part Styling */
+.left-part-container {
+flex: 1;
+}
+
+.tour-highlights {
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 15px;
+color: #000;
+text-align: justify;
+}
+
+.tour-highlights-details p.detail {
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+margin-bottom: 10px;
+margin-left: 20px;
+}
+
+.inclusions-exclusions-container {
+margin-top: 20px;
+}
+
+.inclusions-list, .exclusions-list {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.inclusions-list li, .exclusions-list li {
+display: flex;
+align-items: center;
+font-size: 16px;
+color: #333;
+margin-bottom: 8px;
+margin-left: 20px;
+}
+
+.check-icon, .x-icon {
+margin-right: 10px;
+width: 20px;
+}
+
+.itinerary-container {
+margin-top: 20px;
+}
+
+.itinerary-highlights h3 {
+font-size: 20px;
+font-weight: bold;
+color: #000;
+margin-left: 15px;
+}
+
+.itinerary-list {
+list-style-type: none;
+padding: 0;
+margin: 0 15px;
+
+}
+
+ul {
+color: #333;
+}
+
+/* PACKAGE DETAILS IMAGE */
+/* Modal styles */
+.modal {
+display: none; /* Hidden by default */
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+}
+
+.modal-content {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+}
+
+/* BUTTON OF NEXT, BACK, ADD TRAVELLER 
+#nextButton, #addTravelerButton, #backButton {
+transition: background-color 0.3s ease;
+}
+
+/* Hover effect for Next button 
+#nextButton:hover {
+background-color: #28a745; /* Green color on hover 
+}
+
+/* Hover effect for Add Traveler button 
+#addTravelerButton:hover {
+background-color: #0299c4; /* Blue color on hover 
+color: white;
+}
+
+/* Hover effect for Back button 
+#backButton:hover {
+background-color: #28a745; /* Gray color on hover 
+}
+
+/* Optional: Active state for buttons 
+#nextButton:active, #addTravelerButton:active, #backButton:active {
+transform: scale(0.98); /* Slightly scale down when clicked 
+} */
+
+/* BOOK NOW BUTTON UNDER OF PACKAGE
+#bookNowButton {
+background-color: #0299c4;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+/* Hover effect - Blue to Green 
+#bookNowButton:hover {
+background-color: #28a745; /* Green color on hover 
+}
+
+/* Optional: You can also add an active state to make it more interactive 
+#bookNowButton:active {
+background-color: #1e7e34; /* Darker green on click 
+}
+
+.close {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #ffffff;
+font-size: 40px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+color: black;
+cursor: pointer;
+} */
+
+/* FLYERS BUTTON */
+#flyers-button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: #0299c4; /* Button color */
+color: #fff;
+border: none;
+border-radius: 5px;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the button */
+#flyers-button:hover {
+background-color: #218838; /* Darker shade on hover */
+transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Right Part Styling */
+.right-part-container {
+flex: 0 1 300px;
+padding: 20px;  
+}
+
+.tour-fare-description-container {
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 10px;
+color: #000;
+}
+
+.tour-price {
+font-size: 32px;
+font-weight: bold;
+color: #333;
+}
+
+.tour-duration {
+font-size: 18px;
+color: #666;
+margin-top: 5px;
+}
+
+.fare-list {
+margin-top: 15px;
+}
+
+.fare-list ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.fare-list li {
+font-size: 16px;
+color: #333;
+margin-bottom: 8px;
+}
+
+#inquire-button {
+width: 100%;
+padding: 10px 0;
+margin-top: 20px;
+background-color: #28a745;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+#inquire-button:hover {
+background-color: #218838;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+#tour-detail-container {
+    flex-direction: column;
+}
+
+.left-part-container, .right-part-container {
+    flex: 1;
+}
+
+.tour-price {
+    font-size: 28px;
+}
+
+.tour-duration, .fare-list li {
+    font-size: 14px;
+}
+} 
+
+/* REMINDERS DESCRIPTION */
+.container {
+width: 100%;
+padding: 10px;
+}
+
+.section-title {
+font-weight: 700;
+font-size: 25px;
+color: black;
+font-family: sans-serif;
+margin-bottom: 10px;
+}
+
+.reminders-list {
+list-style-type: none;
+padding-left: 15px;
+}
+
+.reminders-list li {
+font-size: 17px;
+padding-bottom: 10px;
+color: black;
+text-align: justify;
+}
+
+/* BOOK HERE BUTTON */
+#bookHere, .bookHere {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the button */
+#bookHere:hover, .bookHere:hover {
+    background-color: #0299c4; /* Green background on hover */
+}
+/* NUMBER OF PASSENGERS FORM */
+.form-container {
+    /*width: 100%;
+    max-width: 1000px;*/
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f4f6;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+
+.form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.form-container .passenger-label {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #888;
+}
+
+.passenger-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.passenger-section div {
+    text-align: center;
+    flex: 1;
+}
+
+.passenger-section label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 80%;
+    padding: 8px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ADDITIONAL TRAVELLERS BUTTON 
+.additional-traveler-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.remove-item {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+.remove-item:hover {
+    background-color: #ff4d4d;
+}
+
+.form-step {
+    display: none;
+} */

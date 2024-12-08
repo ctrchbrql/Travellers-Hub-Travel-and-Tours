@@ -1,0 +1,5 @@
+.text-dark {
+  --bs-text-opacity: 1;
+  color: #18212d !important;
+}
+

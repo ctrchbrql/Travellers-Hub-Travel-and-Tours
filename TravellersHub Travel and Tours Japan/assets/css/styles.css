@@ -1,0 +1,77 @@
+body {
+  background-color: #eef4f7;
+  color: rgb(255, 255, 255);
+}
+
+#First-Section {
+  width: 100%;
+  height: 80vh;
+}
+
+@media (min-width: 300px) {
+  #logo {
+    font-size: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+}
+
+#logo-image #logo {
+  font-size: 31px;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+#nav {
+  background-color: #ffffff;
+}
+
+#logo-image {
+  width: 60px;
+}
+
+@media (min-width: 300px) {
+  #logo-image {
+    width: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #navcol-1 {
+    margin-left: 20px;
+    padding-right: 26px;
+  }
+}
+
+#Sign-In {
+  box-shadow: 0 0 1px #000000;
+  -webkit-transition: all 0.5s ease-in-out;
+  background: #0ac0f4;
+}
+
+#Sign-In:Hover {
+  -webkit-transform: scale(1.1);
+  background-color: #0299c4;
+}
+
+#Home-Link:Hover {
+  color: #0299c4;
+}
+
+#First-Container {
+  margin-top: 216px;
+}
+
+#First-Section:Background {
+  filter: blur("1px");
+}
+
+#Front-Page {
+  justify-content: center;
+  align-items: center;
+}
+
+#Proceed-Button {
+  font-size: 26px;
+  width: 26px;
+}
+
+

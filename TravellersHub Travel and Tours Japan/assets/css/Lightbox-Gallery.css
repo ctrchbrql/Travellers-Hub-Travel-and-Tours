@@ -1,0 +1,87 @@
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
+
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+
+#Proceed-button {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 107px;
+}
+
+#Front-Page-Content {
+  margin-bottom: 223px;
+}
+
+#Front-Message {
+  width: 413px;
+  text-align: right;
+}
+
+#Package:Hover {
+  -webkit-transform: scale(1.1);
+  color: #0299c4;
+}
+
+#Custom:Hover {
+  -webkit-transform: scale(1.1);
+  color: #0299c4;
+}
+
+.fa.fa-chevron-down {
+  font-size: 30px;
+  color: rgb(255,255,255);
+}
+
+.fa.fa-chevron-down:Hover {
+  color: #bcbcbc;
+}
+
+#front-page-background {
+  max-width: 700px;
+  margin: auto;
+  position: relative;
+  padding: 25px;
+}
+
+#Email-Link {
+}
+

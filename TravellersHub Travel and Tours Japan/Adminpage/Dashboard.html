@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Admin Panel</title>
+    <link rel="icon" type="image/png" sizes="367x367" href="../assets/img/Logo_NoBG.png">
+    <link rel="icon" type="image/png" sizes="367x367" href="../assets/img/Logo_NoBG.png">
+    <link rel="icon" type="image/png" sizes="367x367" href="../assets/img/Logo_NoBG.png">
+    <link rel="icon" type="image/png" sizes="367x367" href="../assets/img/Logo_NoBG.png">
+    <link rel="icon" type="image/png" sizes="367x367" href="../assets/img/Logo_NoBG.png">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+SC&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil&amp;display=swap">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="../assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="../assets/css/untitled-1.css">
+    <link rel="stylesheet" href="../assets/css/untitled-2.css">
+    <link rel="stylesheet" href="../assets/css/untitled-3.css">
+    <link rel="stylesheet" href="../assets/css/untitled-4.css">
+    <link rel="stylesheet" href="../assets/css/untitled-5.css">
+    <link rel="stylesheet" href="../assets/css/untitled.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-light navbar-expand align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" id="NavbarAdminPanel" style="background: #26364b;max-width: 230px;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" id="Navbarbrand" href="#">
+                    <div>
+                        <div class="container" style="margin-top: 40px;">
+                            <div class="row d-flex flex-column justify-content-center align-items-center align-content-center">
+                                <div class="col">
+                                    <div><img class="img-fluid" src="../assets/img/Logo_NoBG.png" width="50px" style="margin-top: 28px;"></div>
+                                </div>
+                                <div class="col">
+                                    <div><span style="font-size: 14px;color: #e3e3e3;">Travellers Hub</span></div>
+                                </div>
+                                <div class="col" style="margin-top: -12px;"><span style="font-size: 10px;color: #e3e3e3;">Travel and Tours</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <hr style="color: #e3e3e3;border-color: #e3e3e3;">
+                <ul class="navbar-nav text-light" id="accordionSidebar" style="margin-top: 43px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dashboard.html" id="Dashboard"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a>
+                        <a class="nav-link" href="TestimonialsApproval.html" id="TestimonialsApproval"><i class="fas fa-quote-left"></i><span>Testimonials Approval</span></a>
+                        <a class="nav-link" href="UserInformation.html" id="UserInformation"><i class="fas fa-users"></i><span>Users</span></a>
+                        <div class="nav-item dropdown nav-link" id="TourVisaDropDown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" id="tvStyle"><span><i class="fas fa-id-card"></i>Tour Visa</span></a>
+                            <div class="dropdown-menu" style="min-width: 222px;background: #18212d;">
+                                <a class="dropdown-item" id="VisaInformation" href="VisaInformation.html" style="color: #eef4f7;">Visa Information</a>
+                                <a class="dropdown-item" id="ArchivedVisa" href="VisaInformationArchive.html" style="color: #eef4f7;">Archived Visa</a></div>
+                        </div>
+                        <div class="nav-item dropdown nav-link" id="TourPackageDropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" id="tpStyle"><span><i class="fas fa-map-marked-alt"></i>Tour Package</span></a>
+                            <div class="dropdown-menu" style="min-width: 222px;background: #18212d;">
+                                <a class="dropdown-item" id="PackageInformation" href="PackageInformation.html" style="color: #eef4f7;">Package Information</a>
+                                <a class="dropdown-item" id="ArchivedPackage" href="PackageInformationArchive.html" style="color: #eef4f7;">Archived Package</a>
+                                <a class="dropdown-item" id="ManagePackageContent" href="ManageTourPackage.html" style="color: #eef4f7;"><span>Manage Content</span></a></div>
+                        </div><a class="nav-link" href="ManageAdmin.html" id="ManageAdmin"><i class="fas fa-user-cog"></i><span>Manage Admin</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button" style="color: #26364b;"><i class="fas fa-bars"></i></button>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow" id="UserProfile"><a class="dropdown-toggle d-flex flex-row justify-content-center align-items-center nav-link" aria-expanded="false" data-bs-toggle="dropdown" id="UserDisplayLink" href="#" style="width: 238px;">
+                                        <div class="d-flex flex-column justify-content-center align-items-end align-content-center"><span class="d-lg-inline me-2 text-gray-600 small" id="adminDisplay" style="font-size: 15.9px;border-color: rgb(133, 135, 150);"><strong>Name</strong></span><span class="d-lg-inline me-2 text-gray-600 small" id="roleDisplay" style="font-size: 12.9px;">Role</span></div><i class="fas fa-caret-down" style="color: rgb(133,135,150);font-size: 20.6px;"></i>
+                                    </a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in" id="UserProfileMenu"><a class="dropdown-item" id="Profile" href="Profile.html"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" id="Logout" href="AdminLogin.html"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0" style="color: #055d76;"><strong>Dashboard</strong></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-start-primary py-2" style="background: #fb3e3e;">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-primary fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">Number of Users</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span id="CustomCount" style="color: rgb(255,255,255);">0</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-user-friends fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-start-success py-2" style="background: #3ba639;">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">Number of Tour Packages</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span id="VisaCount" style="color: rgb(255,255,255);">0</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-box-open fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-start-success py-2" style="background: #eec800;">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col me-2">
+                                            <div class="text-uppercase text-success fw-bold text-xs mb-1"><span style="color: rgb(255,255,255);">Number of Testimonials</span></div>
+                                            <div class="text-dark fw-bold h5 mb-0"><span id="TestimonialsCount" style="color: rgb(255,255,255);">0</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-quote-left fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7 col-xl-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0" style="color: #08addc;">Package Overview</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Package&quot;,&quot;backgroundColor&quot;:&quot;#acf248&quot;,&quot;borderColor&quot;:&quot;#8dc53e&quot;,&quot;borderWidth&quot;:&quot;4&quot;,&quot;data&quot;:[&quot;200&quot;,&quot;500&quot;,&quot;2&quot;,&quot;4&quot;,&quot;1&quot;,&quot;88&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;,&quot;display&quot;:false},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;0&quot;],&quot;zeroLineBorderDash&quot;:[&quot;0&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#18212d&quot;,&quot;fontSize&quot;:&quot;9&quot;,&quot;lineHeight&quot;:&quot;3.2&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;0&quot;],&quot;zeroLineBorderDash&quot;:[&quot;0&quot;],&quot;drawOnChartArea&quot;:true},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#18212d&quot;,&quot;fontSize&quot;:&quot;9&quot;,&quot;lineHeight&quot;:&quot;3.2&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                                    <div class="d-flex flex-row justify-content-evenly align-items-center align-content-center" style="margin-top: 14px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 col-xl-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0" style="color: #08addc;">User Creation Overview</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;bar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;User&quot;,&quot;backgroundColor&quot;:&quot;#e45858&quot;,&quot;borderColor&quot;:&quot;#b12121&quot;,&quot;borderWidth&quot;:&quot;4&quot;,&quot;data&quot;:[&quot;200&quot;,&quot;500&quot;,&quot;2&quot;,&quot;4&quot;,&quot;1&quot;,&quot;88&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;,&quot;display&quot;:false},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;0&quot;],&quot;zeroLineBorderDash&quot;:[&quot;0&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#18212d&quot;,&quot;fontSize&quot;:&quot;9&quot;,&quot;lineHeight&quot;:&quot;3.2&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;zeroLineColor&quot;:&quot;rgba(174,174,174,0.82)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;0&quot;],&quot;zeroLineBorderDash&quot;:[&quot;0&quot;],&quot;drawOnChartArea&quot;:true},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#18212d&quot;,&quot;fontSize&quot;:&quot;9&quot;,&quot;lineHeight&quot;:&quot;3.2&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                                    <div class="d-flex flex-row justify-content-evenly align-items-center align-content-center" style="margin-top: 14px;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer" style="margin-top: 20px;">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Travellers Hub Travel and Tours 2024</span></div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/chart.min.js"></script>
+    <script src="../assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="../assets/js/Simple-Slider.js"></script>
+    <script src="../assets/js/theme.js"></script>
+
+    <script src="/admin_scripts/Dashboard.js"></script>
+    <script src="/admin_scripts/roleAccessControl.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Fetch session data to display name and role
+            $.ajax({
+                url: 'https://travellershubtravelandtours.com/api/auth/session-data-admin', // Update with your server's route
+                type: 'GET',
+                success: function(data) {
+                    // Populate the spans with name and role from session data
+                    $('#adminDisplay').text(data.name);
+                    $('#roleDisplay').text(data.role);
+                },
+            });
+        });
+
+        </script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,273 @@
+.jumbotron.jumbotron-main {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  margin: 0;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background: #6819e8;
+  background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+  background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );
+}
+
+.jumbotron.jumbotron-main hr {
+  border-width: 1px 0px;
+  border-style: dotted none;
+  border-color: rgba(255, 255, 255, 0.35);
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  width: 49px;
+  height: 4px;
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+
+.jumbotron.jumbotron-main a {
+  color: #fff;
+}
+
+.center-vertically {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.center-vertically-holder {
+  display: table;
+  height: 100%;
+}
+
+#Fourth-Section {
+  margin-top: 50px;
+}
+
+#Travel-Option-Heading {
+  margin-top: 50px;
+}
+
+#Second-Section {
+  margin-top: 40px;
+}
+
+#Link-Column {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#About-Us-Container {
+  margin: auto;
+}
+
+#Submit-Testimony:Hover {
+  -webkit-transform: scale(1.1);
+  background-color: #0299c4;
+}
+
+#Submit-Testimony {
+  box-shadow: 0 0 1px #000000;
+  -webkit-transition: all 0.5s ease-in-out;
+  background: #0ac0f4;
+}
+
+#Section-1-Container {
+  margin: auto 0;
+}
+
+#Section-1 {
+  margin: auto 0;
+}
+
+#Help-Support-Link:Hover {
+  color: #0299c4;
+}
+
+#Testimonials:Hover {
+  color: #0ac0f4;
+}
+
+#Who-We-Are:Hover {
+  color: #0ac0f4;
+}
+
+#Mission-Vision:Hover {
+  color: #0ac0f4;
+}
+
+#FAQ:Hover {
+  color: #0ac0f4;
+}
+
+#Contact-Us:Hover {
+  color: #0ac0f4;
+}
+
+#Terms-Condition:Hover {
+  color: #0ac0f4;
+}
+
+#Login-Button:Hover {
+  -webkit-transform: scale(1.1);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#About-Us-Link:Hover {
+  color: #0299c4;
+}
+
+#Mission-Vision-Core-Values:Hover {
+  color: #0ac0f4;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #313437;
+}
+
+.dropdown-menu {
+  color: black;
+}
+
+#Return-Home-Icon:Hover {
+  -webkit-transform: scale(1.1);
+  color: #0299c4;
+}
+
+#Register-Link:Hover {
+  text-decoration: underline;
+}
+
+#Terms-and-Condition-Link:Hover {
+  text-decoration: underline;
+}
+
+#Login-Button {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#Login-Button {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#Message-Box {
+  max-width: 400px;
+}
+
+#Open-Gmail-Button:HOver {
+  background-color: #0299c4;
+}
+
+#Open-Gmail-Button {
+  background: #0ac0f4;
+}
+
+#Domestic-Button:hover {
+  background-color: #8dc53e;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#Login-Form-Center-Line {
+  width: 450px;
+  height: 0.00000000001px;
+  border-bottom-style: solid;
+  border-bottom-color: #efefef;
+  margin: auto;
+}
+
+#Domestic-Button {
+  background: #ffffff;
+  color: #8dc53e;
+  border: 1px solid #eef4f7;
+}
+
+#International-Button {
+  background: #ffffff;
+  color: #0299c4;
+}
+
+#International-Button:hover {
+  background-color: #0299c4;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#Choose-Destination {
+  margin: auto;
+}
+
+#Heading-Center-Line {
+  width: 450px;
+  height: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #313437;
+  margin: auto;
+}
+
+#Travel-Option-Line {
+  width: 5px;
+  height: 100px;
+  border-left-style: dotted;
+  border-left-color: #ffffff;
+  margin: auto;
+}
+
+#Travel-Option-Line-2 {
+  width: 5px;
+  height: 160px;
+  border-left-style: solid;
+  border-left-color: #0ac0f4;
+}
+
+#Travel-Option-Line-1 {
+  width: 5px;
+  height: 160px;
+  border-right-style: solid;
+  border-right-color: #8dc53e;
+}
+
+#Third-Section {
+  max-wwidth: 100%;
+  max-height: 100%;
+}
+
+#Explore-Now-Button {
+  background: #0299c4;
+}
+
+#Explore-Now-Button:Hover {
+  -webkit-transform: scale(1.1);
+  background-color: #0ac0f4;
+}
+
+@media (min-width: 300px) {
+  #Third-Section {
+    max-height: 5000px;
+  }
+}
+
